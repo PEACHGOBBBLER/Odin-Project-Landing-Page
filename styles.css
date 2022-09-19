@@ -1,0 +1,63 @@
+/*elements*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 30px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*classes*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.top-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid magenta;
+    margin-left: 150px;
+
+}
+
+.top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    border: 2px solid magenta;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*individual items*/ 
+
+#creepyHamburger {
+    width: 80px;
+    height: 80px;
+}
+
